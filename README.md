@@ -39,7 +39,7 @@ I didn't want to create an online repository and I didn't want to make it a sepa
 [Download the jar](https://github.com/ItziSpyder/ImproperUI/releases/latest) and add it to your project files, as well as build.gradle as a dependency.
 ```gradle
 dependencies {
-    compileOnly files("libs/ImproperUI-theVersionYouWant.jar")
+    modImplementation files("libs/ImproperUI-theVersionYouWant.jar")
 }
 ```
 
